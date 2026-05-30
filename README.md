@@ -1,6 +1,11 @@
 # Arduino Robotics Practices
 
 A collection of beginner Arduino robotics practices developed in Tinkercad. These exercises cover the basic concepts of Arduino programming, electronic components, sensors, actuators and simple automation systems.
+<br>
+<br>
+<img align="left" alt="Arduino" width="50px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/arduino/arduino-original.svg"/>
+<br>
+<br>
 
 ## Project description
 
