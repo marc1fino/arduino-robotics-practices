@@ -6,7 +6,7 @@ The program runs a sequence of different LED effects and prints the name of each
 
 ## Tinkercad
 
-> https://www.tinkercad.com/things/2qgXQNXKEKE-led-pattern-sequences
+[Open this project in Tinkercad](https://www.tinkercad.com/things/2qgXQNXKEKE-led-pattern-sequences)
 
 ## How it works
 
