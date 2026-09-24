@@ -4,11 +4,11 @@ This practice uses **five LEDs** to create several lighting patterns using digit
 
 The program runs a sequence of different LED effects and prints the name of each effect to the Serial Monitor.
 
-## 🔗 Tinkercad
+## Tinkercad
 
-> Add the Tinkercad simulation link here.
+> https://www.tinkercad.com/things/2qgXQNXKEKE-led-pattern-sequences
 
-## ⚙️ How it works
+## How it works
 
 Five LEDs are connected to digital pins **7, 6, 5, 4 and 3**.
 
@@ -24,7 +24,7 @@ After completing all the patterns, the program stops inside an infinite loop.
 
 The Serial Monitor is initialized at **9600 baud** and displays the name of the pattern currently being executed.
 
-## 🧰 Components
+## Components
 
 - 1 × Arduino board
 - 5 × LEDs
@@ -32,7 +32,7 @@ The Serial Monitor is initialized at **9600 baud** and displays the name of the 
 - Breadboard
 - Jumper wires
 
-## 🔌 Pin configuration
+## Pin configuration
 
 | Component | Arduino pin |
 |---|---:|
@@ -42,7 +42,7 @@ The Serial Monitor is initialized at **9600 baud** and displays the name of the 
 | LED 4 | 4 |
 | LED 5 | 3 |
 
-## 🎯 Learning objectives
+## Learning objectives
 
 - Control multiple digital outputs with Arduino.
 - Create reusable functions with parameters.
@@ -52,7 +52,7 @@ The Serial Monitor is initialized at **9600 baud** and displays the name of the 
 - Use `Serial.println()` to identify which sequence is running.
 - Use `delay()` to control animation timing.
 
-## ▶️ How to run
+## How to run
 
 1. Connect the five LEDs to Arduino pins **7 to 3**, using a resistor for each LED.
 2. Open `led_pattern_sequences.ino` in the Arduino IDE.
@@ -60,7 +60,7 @@ The Serial Monitor is initialized at **9600 baud** and displays the name of the 
 4. Upload the sketch to the Arduino.
 5. Open the Serial Monitor at **9600 baud** to see the name of each LED pattern while it runs.
 
-## 📁 Files
+## Files
 
 ```text
 practice-11-led-pattern-sequences/
