@@ -1,6 +1,9 @@
 // C++ code
 //
 
+#include<LiquidCrystal.h>
+LiquidCrystal lcd(13, 12, 11, 10, 9, 8);
+
 int led1=7;
 int led2=6;
 int led3=5;
@@ -59,6 +62,11 @@ void parpadearTot(){
 
 void estel(){
   Serial.println("Estel");
+  
+  lcd.setCursor(0,0);
+  lcd.clear();
+  lcd.print("Estel");
+  
   for ( int i = 7 ; i >= 3 ; i-- ) {
     parpadear(i);
   }
@@ -66,6 +74,11 @@ void estel(){
 
 void zigzag(){
   Serial.println("Zigzag");
+  
+  lcd.setCursor(0,0);
+  lcd.clear();
+  lcd.print("Zigzag");
+  
   for ( int i = 7 ; i >= 3 ; i-- ) {
     parpadear(i);
   }
@@ -76,6 +89,11 @@ void zigzag(){
 
 void simetria() {
   Serial.println("Simetria");
+  
+  lcd.setCursor(0,0);
+  lcd.clear();
+  lcd.print("Simetria");
+  
   encen(led1);
   encen(led5);
   delay(espera);
@@ -101,6 +119,11 @@ void simetria() {
 
 void dimm() {
   Serial.println("Dimm");
+  
+  lcd.setCursor(0,0);
+  lcd.clear();
+  lcd.print("Dimm");
+  
   encen(led1);
   encen(led5);
   encen(led2);
@@ -133,12 +156,11 @@ void loop()
   simetria();
   apagaTot();
   zigzag();
+  apagaTot();
   dimm();
   apagaTot();
+  lcd.clear();
   for (int i = 1; i <= 5; i++) {
     parpadearTot();
-  }
-  while(true) {
-    // Para el programa així només 5 vegades
   }
 }
