@@ -28,7 +28,8 @@ arduino-robotics-practices/
 ├── practice-07b-ultrasonic-led-distance-alert/
 ├── practice-08-light-sensor-automatic-led/
 ├── practice-09-temperature-led-indicator/
-└── practice-10-servo-motor-positions/
+├── practice-10-servo-motor-positions/
+└── practice-11-led-pattern-sequences/
 ```
 
 ## Practices included
@@ -47,6 +48,7 @@ arduino-robotics-practices/
 | Practice 08 | Light Sensor Automatic LED | Turning an LED on or off depending on light level |
 | Practice 09 | Temperature LED Indicator | Indicating temperature ranges with different LEDs |
 | Practice 10 | Servo Motor Positions | Moving a servo motor through different angles |
+| Practice 11 | LED pattern sequences | Runs different sequences in different LEDs and uses LCD display |
 
 ## Technologies used
 
