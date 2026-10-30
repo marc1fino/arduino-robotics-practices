@@ -6,7 +6,7 @@ When the push button is pressed, the program runs a traffic light sequence to st
 
 ## Tinkercad
 
-[Open practice in Tinkercad.](https://www.tinkercad.com/things/80TK0wnU7cO-practica-2-semafor)
+[Open practice in Tinkercad](https://www.tinkercad.com/things/80TK0wnU7cO-practica-2-semafor)
 
 ## How it works
 
