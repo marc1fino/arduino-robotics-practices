@@ -1,4 +1,4 @@
-# Practice 12 – Pedestrian Traffic Lights 2
+# Practice 12 – Traffic Light Sequence 2
 
 This practice uses **five LEDs**, a **push button** and a **16x2 LCD display** to simulate a pedestrian crossing using digital inputs, outputs, functions and delays in Arduino.
 
