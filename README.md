@@ -29,7 +29,8 @@ arduino-robotics-practices/
 ├── practice-08-light-sensor-automatic-led/
 ├── practice-09-temperature-led-indicator/
 ├── practice-10-servo-motor-positions/
-└── practice-11-led-pattern-sequences/
+├── practice-11-led-pattern-sequences/
+└── practice-12-traffic-light-sequence2/
 ```
 
 ## Practices included
@@ -49,6 +50,7 @@ arduino-robotics-practices/
 | Practice 09 | Temperature LED Indicator | Indicating temperature ranges with different LEDs |
 | Practice 10 | Servo Motor Positions | Moving a servo motor through different angles |
 | Practice 11 | LED pattern sequences | Runs different sequences in different LEDs and uses LCD display |
+| Practice 12 | Traffic Light Sequence 2 | Improved simulation of pedestrian crossing using 5 LEDs, an LCD and a push button  |
 
 ## Technologies used
 
